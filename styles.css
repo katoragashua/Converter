@@ -18,7 +18,7 @@ body {
 h1 {
     text-align: center;
     font-family: 'montserrat', sans-serif;
-    color: rgb(4, 33, 41); 
+    color: rgb(213, 245, 125); 
     font-size: 3rem;
 }
 
@@ -32,10 +32,11 @@ input {
     background: rgb(240, 232, 211);
     border-radius: 4rem;
     font-size: 1.5rem;
+    text-align: center;
 }
 
 button {
-    background: rgb(4, 33, 41);
+    background: rgb(213, 245, 125);
     color: teal;
     padding: 1rem 3rem;
     border: none;
@@ -53,29 +54,43 @@ ul {
     padding-left: 0;
 }
 
-li {
-    margin-top: 5px;
-}
-
-a {
-    color: #5f9341;
-}
-
 select {
     margin: 5px auto;
     display: block;
-    padding: 0.5rem;    
+    padding: 0.5rem;  
+    border-radius: 10px;  
 }
 
 span {
     background: rgb(240, 232, 211);
     margin: 10px auto;
     display: block;
-    width: 30%;
+    width: 40%;
     text-align: center;
     font-weight: bold;
     padding: 30px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 300px) {
+    h1 {
+    text-align: center;
+    color: rgb(213, 245, 125); 
+    font-size: 2rem;
+    }
+    
+    span {
+    background: rgb(240, 232, 211);
+    width: 80%;
+    padding: 30px;
+    font-size: 1rem;
+    }
+
+    button {
+    background: rgb(213, 245, 125);
+    color: teal;
+    padding: 1rem 3rem;
+    }
+
+}
