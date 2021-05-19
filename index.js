@@ -18,11 +18,11 @@ function converter() {
     let convertedWeight = 0
     if (unit === selectEl.options[0].text) {
         convertedWeight = (parseFloat(weight) / k).toFixed(2)//The to fixed method is used to ensure the decimal places aren't more than 2
-        convertedWeight += "lbs"
+        convertedWeight += "Lbs"
 
     } else {
         convertedWeight = (parseFloat(weight) * k).toFixed(2)
-        convertedWeight += "kg"
+        convertedWeight += "Kg"
     }
     return convertedWeight
 }
