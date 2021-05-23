@@ -3,7 +3,7 @@ const inputEl = document.getElementById("input-el")
 const selectEl = document.getElementById("select-el")
 const display = document.querySelector("span")
 let weight = ""
-let k = 0.454 //k is a constant since 1 kg = 0.454lbs. 
+let k = 0.453592 //k is a constant since 1 kg = 0.453592lbs. 
 let unit = ""
 
  //This function calls out the converter() and displays the converted weight
